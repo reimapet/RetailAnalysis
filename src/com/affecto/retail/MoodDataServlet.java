@@ -61,7 +61,7 @@ public class MoodDataServlet extends HttpServlet {
 		//response.getWriter().append("Served at: ").append(request.getContextPath());
 		
 		//JSONArray names = new JSONArray(moodNames);
-		
+		response.setContentType("application/json");
 		JSONArray data  =  null;// CDL.toJSONArray(names, file.getFileContent().toString() );
 		
 		data = fileToJSON(file.getFileContent());
