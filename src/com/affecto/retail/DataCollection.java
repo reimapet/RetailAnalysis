@@ -22,6 +22,11 @@ public class DataCollection<T> {
 		dataList.add( data );
 	}
 	
+	/**
+	 * 
+	 * @param columnNames
+	 * @return
+	 */
 	public String getJSON( List<String> columnNames )
 	{
 		

@@ -1,0 +1,20 @@
+
+
+
+/RetailAnalysis/PeopleCountServlet
+
+Get json format
+{"HappyMale":[],"NothappyMale":[],"HappyFemale":[],"NothappyFemale":[]}
+
+POST
+{"timestamp" : "", "HappyMale":"","NothappyMale":"","HappyFemale":"","NothappyFemale":""}
+
+
+
+/RetailAnalysis/PeopleCountServlet
+
+Get json format
+{"ObservedInterval":[1],"ObservedPeopleTotal":[1]}
+
+POST json Format
+{"timestamp" : "", "observedInterval":1,"observedPeopleTotal":1}
